@@ -1,0 +1,6 @@
+{
+  "game_name": "Test Game",
+  "game_developer": "Me",
+  "game_version": "1.0.0",
+  "start_scene": "data/scenes/test.json"
+}
