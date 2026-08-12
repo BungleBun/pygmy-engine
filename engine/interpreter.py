@@ -1,15 +1,6 @@
 from engine.utils import load_json
 from engine.entities.player import Player
-from engine.scenes.scenes import AnimScene,CutScene,FightScene, GameScene, DialogScene, ChoiceScene
 
-scene_map = {
-    "anim_scene": AnimScene,
-    "cut_scene": CutScene,
-    "fight_scene": FightScene,
-    "game_scene": GameScene,
-    "dialog_scene": DialogScene,
-    "choice_scene": ChoiceScene,
-}
 
 class GameEngine:
     def __init__(self, start_file):
