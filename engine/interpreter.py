@@ -1,5 +1,4 @@
-from engine.utils import load_json
-from engine.entities.player import Player
+from engine.utils.json_utils import load_json
 
 
 class GameEngine:

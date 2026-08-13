@@ -1,13 +1,8 @@
-import json
-import os
+from engine.utils.json_utils import load_json
 
-
-def clear_terminal():
-    os.system('cls' if os.name == 'nt' else 'clear')
-
-def load_json(path):
-    with open(path, 'r') as f:
-        return json.load(f)
+from engine.blocks.blocks import *
+from engine.entities.player import *
+from engine.entities.enemy import *
 
 type_registry = {
     'anim_block': AnimBlock,

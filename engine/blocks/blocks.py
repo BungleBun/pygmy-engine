@@ -1,7 +1,6 @@
-import time
-from engine.utils import clear_terminal
-from engine.entities.enemy import Enemy
-from engine.blocks.base_block import Block
+from engine import clear_terminal
+from engine import Enemy
+from engine import Block
 
 class AnimBlock(Block):
     def run(self):

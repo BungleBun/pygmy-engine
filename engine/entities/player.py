@@ -1,5 +1,5 @@
-from engine.entities.entity import Entity
-from engine.utils import load_json
+from engine import Entity
+from engine import load_json
 
 class Player(Entity):
     def __init__(self):
